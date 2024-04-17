@@ -1,0 +1,18 @@
+export const allItems = [
+	{ id: "100", title: "All departments" },
+	{ id: "101", title: "Amazon Devices" },
+	{ id: "102", title: "Amazon Fresh" },
+	{ id: "103", title: "Amazon Warehouse" },
+	{ id: "104", title: "Amazon Pharmacy" },
+	{ id: "105", title: "Apps & Games" },
+	{ id: "106", title: "Baby" },
+	{ id: "107", title: "Books" },
+	{ id: "108", title: "Automotive Parts & Accessories" },
+	{ id: "109", title: "Clothing, Shoes & Jewelry" },
+	{ id: "110", title: "Electronics" },
+	{ id: "111", title: "Home & Kitchen" },
+	{ id: "112", title: "Toys & Games" },
+	{ id: "113", title: "Beauty & Personal Care" },
+	{ id: "114", title: "Sports & Outdoors" },
+	{ id: "115", title: "Health & Household" },
+];
