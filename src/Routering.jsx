@@ -13,7 +13,9 @@ import { loadStripe } from "@stripe/stripe-js";
 import ProtectedRoute from "./Componenet/ProtectedRoute/ProtectedRoute";
 // Make sure to call `loadStripe` outside of a component’s render to avoid
 // recreating the `Stripe` object on every render.
-const stripePromise = loadStripe(process.env.STRIPE_SECRET_KEY);
+const stripePromise = loadStripe(
+  "pk_test_51OJTqjHRUtmygy7Oix0k9M9zh8kaEjvf5bRSNt7m8U7bKKxziSsFvrmNCTiqGDG8LuTNW9hMfj9jGUITV1ypwIzw00Ipepora6"
+);
 
 function Routering() {
   return (
